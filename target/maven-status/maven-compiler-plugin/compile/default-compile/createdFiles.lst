@@ -1,0 +1,4 @@
+amazonDriverFactory/DriverFactory.class
+amazonPages/LoginPage.class
+amazonUtils/LoggerClass.class
+amazonUtils/ConfigReader.class
