@@ -1,6 +1,5 @@
 package amazonStepdefs;
 
-import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 
 import amazonDriverFactory.DriverFactory;
@@ -14,7 +13,7 @@ import io.cucumber.java.en.When;
 public class CartStepdefs {
 
 	WebDriver driver;
-	static Logger logger = Logger.getLogger(CartStepdefs.class);
+	//static Logger logger = Logger.getLogger(CartStepdefs.class);
 	CartPage cartpge;
 	ProductSearchPage productsearchpge;
 	ProductSelectionPage productselectpge;
@@ -34,7 +33,7 @@ public class CartStepdefs {
 		productsearchpge.enterProduct();
 		productsearchpge.clickSearch();
 		productselectpge.selectProduct();
-		logger.info("user should be able to add product to cart on clicking add to cart button");
+		//logger.info("user should be able to add product to cart on clicking add to cart button");
 	}
 
 	@When("User clicks on add to cart")
@@ -49,7 +48,7 @@ public class CartStepdefs {
 	@Then("product should be added to cart")
 	public void product_should_be_added_to_cart() throws InterruptedException {
 		
-	    logger.info("product should be added to cart");
+	    //logger.info("product should be added to cart");
 	}
 
 	@Given("User is on cart page")
@@ -80,14 +79,14 @@ public class CartStepdefs {
 	@Then("quantity should get increased by {int}")
 	public void quantity_should_get_increased_by(Integer int1) {
 		
-		logger.info("quantity should get increased");
+		//logger.info("quantity should get increased");
 	}
 
 	@When("quantity is greater than {int}")
 	public void quantity_is_greater_than(Integer int1) throws InterruptedException {
 		
 		Thread.sleep(1000);
-	    logger.info("quantity is greater");
+	    //logger.info("quantity is greater");
 	}
 
 	@When("user clicks on minus next to product quantity")
@@ -104,13 +103,13 @@ public class CartStepdefs {
 
 	@Then("quantity should get decreased by {int}")
 	public void quantity_should_get_decreased_by(Integer int1) {
-	   logger.info("quantity should get decreased");
+	   //logger.info("quantity should get decreased");
 	}
 
 	@When("no product is added to cart")
 	public void no_product_is_added_to_cart() {
 		cartpge.cartPage();
-	    logger.info("no product is added to cart");
+	    //logger.info("no product is added to cart");
 	}
 
 	@Then("cart empty message should display")

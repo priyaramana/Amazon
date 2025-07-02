@@ -1,6 +1,5 @@
 package amazonStepdefs;
 
-import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 
 import amazonDriverFactory.DriverFactory;
@@ -13,7 +12,7 @@ import io.cucumber.java.en.When;
 public class ProductSelectionStepdefs {
 
 	WebDriver driver;
-	static Logger logger = Logger.getLogger(ProductSelectionStepdefs.class);
+	//static Logger logger = Logger.getLogger(ProductSelectionStepdefs.class);
 	ProductSelectionPage productselectpge;
 	ProductSearchPage productsearchpge;
 	
@@ -37,7 +36,7 @@ public class ProductSelectionStepdefs {
 
 	@Then("should be able to select product from search results")
 	public void should_be_able_to_select_product_from_search_results() {
-		logger.info("should be able to select product from search results");
+		//logger.info("should be able to select product from search results");
 	}
 
 	@When("user clicks on product")
@@ -49,7 +48,7 @@ public class ProductSelectionStepdefs {
 
 	@Then("product details page should display")
 	public void product_details_page_should_display() {
-		logger.info("product details page should display");
+		//logger.info("product details page should display");
 	}
 
 	@Then("should contain title, price, description")
@@ -89,12 +88,12 @@ public class ProductSelectionStepdefs {
 
 	@When("clicks on verify")
 	public void clicks_on_verify() {
-		logger.info("clicks on verify");
+		//logger.info("clicks on verify");
 	}
 
 	@Then("success message should display")
 	public void success_message_should_display() {
-	   logger.info("success message should display");
+	   //logger.info("success message should display");
 	}
 
 	@When("user enters invalid pincode")
@@ -104,6 +103,6 @@ public class ProductSelectionStepdefs {
 	
 	@Then("error message should display")
 	public void error_message_should_display() {
-		logger.info("error message should display");
+		//logger.info("error message should display");
 	}
 }

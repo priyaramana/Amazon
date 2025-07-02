@@ -1,6 +1,5 @@
 package amazonStepdefs;
 
-import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 
 import amazonDriverFactory.DriverFactory;
@@ -11,7 +10,7 @@ import io.cucumber.java.en.Then;
 public class HomeStepdefs {
 
 	WebDriver driver;
-	static Logger logger = Logger.getLogger(HomeStepdefs.class);
+	//static Logger logger = Logger.getLogger(HomeStepdefs.class);
 	HomePage homepge;
 	
 	@Given("User is on home page")

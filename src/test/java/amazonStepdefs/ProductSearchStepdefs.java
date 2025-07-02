@@ -1,6 +1,5 @@
 package amazonStepdefs;
 
-import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 
 import amazonDriverFactory.DriverFactory;
@@ -12,7 +11,7 @@ import io.cucumber.java.en.When;
 public class ProductSearchStepdefs {
 
 	WebDriver driver;
-	static Logger logger = Logger.getLogger(ProductSearchStepdefs.class);
+	//static Logger logger = Logger.getLogger(ProductSearchStepdefs.class);
 	ProductSearchPage productsearchpge;
 	
 	@Given("User is on product search page")
@@ -68,6 +67,6 @@ public class ProductSearchStepdefs {
 
 	@Then("products should display accordingly")
 	public void products_should_display_accordingly() {
-	    logger.info("products should display accordingly");
+	    //logger.info("products should display accordingly");
 	}
 }

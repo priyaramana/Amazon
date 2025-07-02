@@ -1,15 +1,16 @@
 package amazonPages;
 
 import org.openqa.selenium.WebDriver;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.log4testng.Logger;
+
 
 public class LoginPage {
 
 	WebDriver driver;
-	static Logger logger = Logger.getLogger(LoginPage.class);
+	//static Logger logger = Logger.getLogger(LoginPage.class);
 	
 	public LoginPage(WebDriver driver) {
 		this.driver = driver;

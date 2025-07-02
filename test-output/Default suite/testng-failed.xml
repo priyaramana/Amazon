@@ -7,7 +7,7 @@
         <methods>
           <include name="setUpClass"/>
           <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="0"/>
+          <include name="runScenario" invocation-numbers="3 20 21 14"/>
         </methods>
       </class> <!-- amazonRunners.TestRunner -->
     </classes>

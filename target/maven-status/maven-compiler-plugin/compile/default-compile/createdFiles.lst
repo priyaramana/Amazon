@@ -1,7 +1,9 @@
 amazonPages/ProductSelectionPage.class
 amazonDriverFactory/DriverFactory.class
 amazonPages/HomePage.class
+amazonUtils/Screenshots.class
 amazonPages/CartPage.class
+amazonUtils/TestListener.class
 amazonPages/LoginPage.class
 amazonUtils/LoggerClass.class
 amazonPages/ProductSearchPage.class
