@@ -1,4 +1,8 @@
 /Users/lt535j/eclipse-workspace/Amazon/src/main/java/amazonDriverFactory/DriverFactory.java
+/Users/lt535j/eclipse-workspace/Amazon/src/main/java/amazonPages/CartPage.java
+/Users/lt535j/eclipse-workspace/Amazon/src/main/java/amazonPages/HomePage.java
 /Users/lt535j/eclipse-workspace/Amazon/src/main/java/amazonPages/LoginPage.java
+/Users/lt535j/eclipse-workspace/Amazon/src/main/java/amazonPages/ProductSearchPage.java
+/Users/lt535j/eclipse-workspace/Amazon/src/main/java/amazonPages/ProductSelectionPage.java
 /Users/lt535j/eclipse-workspace/Amazon/src/main/java/amazonUtils/ConfigReader.java
 /Users/lt535j/eclipse-workspace/Amazon/src/main/java/amazonUtils/LoggerClass.java

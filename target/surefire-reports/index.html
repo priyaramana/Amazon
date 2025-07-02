@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 9 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
-              <span class="suite-name border-passed">Surefire suite</span>
+              <span class="suite-name border-failed">Surefire suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,61 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">22 methods, 9 failed,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="amazonRunners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Remove product quantity&quot;, &quot;Cart feature&quot;)">runScenario("Remove product quantity", "Cart feature")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="amazonRunners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify product images carousel&quot;, &quot;Product selection &amp; details&quot;)">runScenario("Verify product images carousel", "Product selection & details")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="amazonRunners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify product is added to cart&quot;, &quot;Cart feature&quot;)">runScenario("Verify product is added to cart", "Cart feature")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="amazonRunners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify Availability of add to cart button&quot;, &quot;Product selection &amp; details&quot;)">runScenario("Verify Availability of add to cart button", "Product selection & details")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="amazonRunners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify product title, price , description on product page&quot;, &quot;Product selection &amp; details&quot;)">runScenario("Verify product title, price , description on product page", "Product selection & details")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="amazonRunners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;verify delivery options&quot;, &quot;Product selection &amp; details&quot;)">runScenario("verify delivery options", "Product selection & details")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="amazonRunners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify cart empty message&quot;, &quot;Cart feature&quot;)">runScenario("Verify cart empty message", "Cart feature")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="amazonRunners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Increase product quantity in cart&quot;, &quot;Cart feature&quot;)">runScenario("Increase product quantity in cart", "Cart feature")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="amazonRunners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;select a product from search results&quot;, &quot;Product selection &amp; details&quot;)">runScenario("select a product from search results", "Product selection & details")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,12 +157,67 @@
                     <div class="method-list-content passed suite-Surefire_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="amazonRunners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify login with valid creds&quot;, &quot;Login feature&quot;)">runScenario("Verify login with valid creds", "Login feature")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="amazonRunners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify cart icon is visible&quot;, &quot;Home Page&quot;)">runScenario("Verify cart icon is visible", "Home Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="amazonRunners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify Home page title&quot;, &quot;Home Page&quot;)">runScenario("Verify Home page title", "Home Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="amazonRunners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify search box is present and enabled&quot;, &quot;Home Page&quot;)">runScenario("Verify search box is present and enabled", "Home Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="amazonRunners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify Amazon logo is displayed&quot;, &quot;Home Page&quot;)">runScenario("Verify Amazon logo is displayed", "Home Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="amazonRunners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify product titles contain search term&quot;, &quot;Product Search&quot;)">runScenario("Verify product titles contain search term", "Product Search")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="amazonRunners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify search results are displayed&quot;, &quot;Product Search&quot;)">runScenario("Verify search results are displayed", "Product Search")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="amazonRunners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Click on Login button&quot;, &quot;Login feature&quot;)">runScenario("Click on Login button", "Login feature")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="amazonRunners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Search for product&quot;, &quot;Product Search&quot;)">runScenario("Search for product", "Product Search")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="amazonRunners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify login with valid creds&quot;, &quot;Login feature&quot;)">runScenario("Verify login with valid creds", "Login feature")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="amazonRunners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Apply filters&quot;, &quot;Product Search&quot;)">runScenario("Apply filters", "Product Search")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="amazonRunners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Sort results by price&quot;, &quot;Product Search&quot;)">runScenario("Sort results by price", "Product Search")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="amazonRunners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add product to cart&quot;, &quot;Cart feature&quot;)">runScenario("Add product to cart", "Cart feature")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="amazonRunners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify sign-in option is available&quot;, &quot;Home Page&quot;)">runScenario("Verify sign-in option is available", "Home Page")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
@@ -123,12 +232,350 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">amazonRunners.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Remove product quantity&quot;, &quot;Cart feature&quot;)">
+                  </a> <!-- runScenario("Remove product quantity", "Cart feature") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Remove product quantity","Cart feature")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;amazonPages.CartPage.cartPage()&quot; because &quot;this.cartpge&quot; is null
+	at amazonStepdefs.CartStepdefs.user_is_on_cart_page(CartStepdefs.java:41)
+	at ✽.User is on cart page(file:///Users/lt535j/eclipse-workspace/Amazon/src/test/resources/amazonFeatures/Cart.feature:18)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify product images carousel&quot;, &quot;Product selection &amp; details&quot;)">
+                  </a> <!-- runScenario("Verify product images carousel", "Product selection & details") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify product images carousel","Product selection & details")</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@data-cy=&apos;title-recipe&apos;]/a/h2/span&quot;}
+  (Session info: chrome=137.0.7151.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.32.0&apos;, revision: &apos;d17c8aa950&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.5&apos;, java.version: &apos;24.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [62fb76568e63537deb914e54cef60acf, findElement {using=xpath, value=//div[@data-cy=&apos;title-recipe&apos;]/a/h2/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64406}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64406/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 62fb76568e63537deb914e54cef60acf
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+	at amazonPages.ProductSelectionPage.selectProduct(ProductSelectionPage.java:76)
+	at amazonStepdefs.ProductSelectionStepdefs.user_clicks_on_product(ProductSelectionStepdefs.java:41)
+	at ✽.user clicks on product(file:///Users/lt535j/eclipse-workspace/Amazon/src/test/resources/amazonFeatures/productSelectionandDetails.feature:23)
+... Removed 3 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify product is added to cart&quot;, &quot;Cart feature&quot;)">
+                  </a> <!-- runScenario("Verify product is added to cart", "Cart feature") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify product is added to cart","Cart feature")</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;a-section a-spacing-none a-padding-none&apos;]//input[@id=&apos;add-to-cart-button&apos;]&quot;}
+  (Session info: chrome=137.0.7151.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.32.0&apos;, revision: &apos;d17c8aa950&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.5&apos;, java.version: &apos;24.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f0c0a6e023f2ee87839a0a69a9f41887, findElement {using=xpath, value=//div[@class=&apos;a-section a-spacing-none a-padding-none&apos;]//input[@id=&apos;add-to-cart-button&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61809}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:61809/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f0c0a6e023f2ee87839a0a69a9f41887
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+	at amazonPages.CartPage.addCart(CartPage.java:46)
+	at amazonStepdefs.CartStepdefs.user_clicks_on_add_to_cart(CartStepdefs.java:31)
+	at ✽.User clicks on add to cart(file:///Users/lt535j/eclipse-workspace/Amazon/src/test/resources/amazonFeatures/Cart.feature:9)
+... Removed 3 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify Availability of add to cart button&quot;, &quot;Product selection &amp; details&quot;)">
+                  </a> <!-- runScenario("Verify Availability of add to cart button", "Product selection & details") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify Availability of add to cart button","Product selection & details")</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@data-cy=&apos;title-recipe&apos;]/a/h2/span&quot;}
+  (Session info: chrome=137.0.7151.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.32.0&apos;, revision: &apos;d17c8aa950&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.5&apos;, java.version: &apos;24.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bb4732de36f1caaca25f3f5b9d776b1f, findElement {using=xpath, value=//div[@data-cy=&apos;title-recipe&apos;]/a/h2/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64275}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64275/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bb4732de36f1caaca25f3f5b9d776b1f
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+	at amazonPages.ProductSelectionPage.selectProduct(ProductSelectionPage.java:76)
+	at amazonStepdefs.ProductSelectionStepdefs.user_clicks_on_product(ProductSelectionStepdefs.java:41)
+	at ✽.user clicks on product(file:///Users/lt535j/eclipse-workspace/Amazon/src/test/resources/amazonFeatures/productSelectionandDetails.feature:17)
+... Removed 3 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify product title, price , description on product page&quot;, &quot;Product selection &amp; details&quot;)">
+                  </a> <!-- runScenario("Verify product title, price , description on product page", "Product selection & details") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify product title, price , description on product page","Product selection & details")</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@data-cy=&apos;title-recipe&apos;]/a/h2/span&quot;}
+  (Session info: chrome=137.0.7151.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.32.0&apos;, revision: &apos;d17c8aa950&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.5&apos;, java.version: &apos;24.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e28e5a415b0a291feb3719e5d12c5c3b, findElement {using=xpath, value=//div[@data-cy=&apos;title-recipe&apos;]/a/h2/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64132}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64132/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e28e5a415b0a291feb3719e5d12c5c3b
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+	at amazonPages.ProductSelectionPage.selectProduct(ProductSelectionPage.java:76)
+	at amazonStepdefs.ProductSelectionStepdefs.user_clicks_on_product(ProductSelectionStepdefs.java:41)
+	at ✽.user clicks on product(file:///Users/lt535j/eclipse-workspace/Amazon/src/test/resources/amazonFeatures/productSelectionandDetails.feature:11)
+... Removed 3 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;verify delivery options&quot;, &quot;Product selection &amp; details&quot;)">
+                  </a> <!-- runScenario("verify delivery options", "Product selection & details") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("verify delivery options","Product selection & details")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;amazonPages.ProductSelectionPage.validpincodevalidation()&quot; because &quot;this.productselectpge&quot; is null
+	at amazonStepdefs.ProductSelectionStepdefs.user_enters_valid_pincode(ProductSelectionStepdefs.java:71)
+	at ✽.user enters valid pincode(file:///Users/lt535j/eclipse-workspace/Amazon/src/test/resources/amazonFeatures/productSelectionandDetails.feature:29)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify cart empty message&quot;, &quot;Cart feature&quot;)">
+                  </a> <!-- runScenario("Verify cart empty message", "Cart feature") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify cart empty message","Cart feature")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;amazonPages.CartPage.cartPage()&quot; because &quot;this.cartpge&quot; is null
+	at amazonStepdefs.CartStepdefs.user_is_on_cart_page(CartStepdefs.java:41)
+	at ✽.User is on cart page(file:///Users/lt535j/eclipse-workspace/Amazon/src/test/resources/amazonFeatures/Cart.feature:24)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Increase product quantity in cart&quot;, &quot;Cart feature&quot;)">
+                  </a> <!-- runScenario("Increase product quantity in cart", "Cart feature") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Increase product quantity in cart","Cart feature")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;amazonPages.CartPage.cartPage()&quot; because &quot;this.cartpge&quot; is null
+	at amazonStepdefs.CartStepdefs.user_is_on_cart_page(CartStepdefs.java:41)
+	at ✽.User is on cart page(file:///Users/lt535j/eclipse-workspace/Amazon/src/test/resources/amazonFeatures/Cart.feature:13)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;select a product from search results&quot;, &quot;Product selection &amp; details&quot;)">
+                  </a> <!-- runScenario("select a product from search results", "Product selection & details") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("select a product from search results","Product selection & details")</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h2[text()=&apos;Results&apos;]&quot;}
+  (Session info: chrome=137.0.7151.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.32.0&apos;, revision: &apos;d17c8aa950&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.5&apos;, java.version: &apos;24.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ad7a0ea4fb2ee8be1de8f27dc6c91bf, findElement {using=xpath, value=//h2[text()=&apos;Results&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63988}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63988/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ad7a0ea4fb2ee8be1de8f27dc6c91bf
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.isDisplayed(Unknown Source)
+	at amazonPages.ProductSelectionPage.resultDisplay(ProductSelectionPage.java:72)
+	at amazonStepdefs.ProductSelectionStepdefs.search_results_should_display(ProductSelectionStepdefs.java:31)
+	at ✽.search results should display(file:///Users/lt535j/eclipse-workspace/Amazon/src/test/resources/amazonFeatures/productSelectionandDetails.feature:6)
+... Removed 3 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">amazonRunners.TestRunner</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify cart icon is visible&quot;, &quot;Home Page&quot;)">
+                  </a> <!-- runScenario("Verify cart icon is visible", "Home Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify cart icon is visible","Home Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify Home page title&quot;, &quot;Home Page&quot;)">
+                  </a> <!-- runScenario("Verify Home page title", "Home Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify Home page title","Home Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify search box is present and enabled&quot;, &quot;Home Page&quot;)">
+                  </a> <!-- runScenario("Verify search box is present and enabled", "Home Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify search box is present and enabled","Home Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify Amazon logo is displayed&quot;, &quot;Home Page&quot;)">
+                  </a> <!-- runScenario("Verify Amazon logo is displayed", "Home Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify Amazon logo is displayed","Home Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify product titles contain search term&quot;, &quot;Product Search&quot;)">
+                  </a> <!-- runScenario("Verify product titles contain search term", "Product Search") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify product titles contain search term","Product Search")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify search results are displayed&quot;, &quot;Product Search&quot;)">
+                  </a> <!-- runScenario("Verify search results are displayed", "Product Search") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify search results are displayed","Product Search")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Click on Login button&quot;, &quot;Login feature&quot;)">
+                  </a> <!-- runScenario("Click on Login button", "Login feature") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Click on Login button","Login feature")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Search for product&quot;, &quot;Product Search&quot;)">
+                  </a> <!-- runScenario("Search for product", "Product Search") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Search for product","Product Search")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="runScenario(&quot;Verify login with valid creds&quot;, &quot;Login feature&quot;)">
@@ -141,10 +588,40 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Click on Login button&quot;, &quot;Login feature&quot;)">
-                  </a> <!-- runScenario("Click on Login button", "Login feature") -->
+                  <a name="runScenario(&quot;Apply filters&quot;, &quot;Product Search&quot;)">
+                  </a> <!-- runScenario("Apply filters", "Product Search") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Click on Login button","Login feature")</span>
+                  <span class="parameters">("Apply filters","Product Search")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Sort results by price&quot;, &quot;Product Search&quot;)">
+                  </a> <!-- runScenario("Sort results by price", "Product Search") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Sort results by price","Product Search")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Add product to cart&quot;, &quot;Cart feature&quot;)">
+                  </a> <!-- runScenario("Add product to cart", "Cart feature") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add product to cart","Cart feature")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify sign-in option is available&quot;, &quot;Home Page&quot;)">
+                  </a> <!-- runScenario("Verify sign-in option is available", "Home Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify sign-in option is available","Home Page")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -210,20 +687,100 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(22);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'amazonRunners.TestRunner')
-data.setCell(0, 3, 9243);
+data.setCell(0, 3, 22260);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'amazonRunners.TestRunner')
-data.setCell(1, 3, 8019);
+data.setCell(1, 3, 19010);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'amazonRunners.TestRunner')
+data.setCell(2, 3, 18973);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'amazonRunners.TestRunner')
+data.setCell(3, 3, 18642);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'amazonRunners.TestRunner')
+data.setCell(4, 3, 18479);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'amazonRunners.TestRunner')
+data.setCell(5, 3, 17692);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'amazonRunners.TestRunner')
+data.setCell(6, 3, 17672);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'amazonRunners.TestRunner')
+data.setCell(7, 3, 17629);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'amazonRunners.TestRunner')
+data.setCell(8, 3, 17525);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runScenario')
+data.setCell(9, 2, 'amazonRunners.TestRunner')
+data.setCell(9, 3, 17486);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'runScenario')
+data.setCell(10, 2, 'amazonRunners.TestRunner')
+data.setCell(10, 3, 17166);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'runScenario')
+data.setCell(11, 2, 'amazonRunners.TestRunner')
+data.setCell(11, 3, 16974);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'runScenario')
+data.setCell(12, 2, 'amazonRunners.TestRunner')
+data.setCell(12, 3, 15927);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'runScenario')
+data.setCell(13, 2, 'amazonRunners.TestRunner')
+data.setCell(13, 3, 15690);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'runScenario')
+data.setCell(14, 2, 'amazonRunners.TestRunner')
+data.setCell(14, 3, 15609);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'runScenario')
+data.setCell(15, 2, 'amazonRunners.TestRunner')
+data.setCell(15, 3, 15338);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'runScenario')
+data.setCell(16, 2, 'amazonRunners.TestRunner')
+data.setCell(16, 3, 14082);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'runScenario')
+data.setCell(17, 2, 'amazonRunners.TestRunner')
+data.setCell(17, 3, 13781);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'runScenario')
+data.setCell(18, 2, 'amazonRunners.TestRunner')
+data.setCell(18, 3, 13639);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'runScenario')
+data.setCell(19, 2, 'amazonRunners.TestRunner')
+data.setCell(19, 3, 13497);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'runScenario')
+data.setCell(20, 2, 'amazonRunners.TestRunner')
+data.setCell(20, 3, 13348);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'runScenario')
+data.setCell(21, 2, 'amazonRunners.TestRunner')
+data.setCell(21, 3, 12361);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 17 seconds</span>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -251,20 +808,118 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">amazonRunners.TestRunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@462abec3)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@284d4885)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <span class="method-name">runScenario("Add product to cart", "Cart feature")</span>
+                <span class="method-start">255 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify product is added to cart", "Cart feature")</span>
+                <span class="method-start">17885 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Increase product quantity in cart", "Cart feature")</span>
+                <span class="method-start">35374 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Remove product quantity", "Cart feature")</span>
+                <span class="method-start">51065 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify cart empty message", "Cart feature")</span>
+                <span class="method-start">65147 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify Home page title", "Home Page")</span>
+                <span class="method-start">78644 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify Amazon logo is displayed", "Home Page")</span>
+                <span class="method-start">92425 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify search box is present and enabled", "Home Page")</span>
+                <span class="method-start">106064 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify cart icon is visible", "Home Page")</span>
+                <span class="method-start">123038 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify sign-in option is available", "Home Page")</span>
+                <span class="method-start">135399 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Search for product", "Product Search")</span>
+                <span class="method-start">148747 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify search results are displayed", "Product Search")</span>
+                <span class="method-start">164086 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify product titles contain search term", "Product Search")</span>
+                <span class="method-start">183059 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Apply filters", "Product Search")</span>
+                <span class="method-start">202070 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Sort results by price", "Product Search")</span>
+                <span class="method-start">219762 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">runScenario("Click on Login button", "Login feature")</span>
-                <span class="method-start">223 ms</span>
+                <span class="method-start">238404 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Verify login with valid creds", "Login feature")</span>
-                <span class="method-start">8243 ms</span>
+                <span class="method-start">255929 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("select a product from search results", "Product selection & details")</span>
+                <span class="method-start">278189 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify product title, price , description on product page", "Product selection & details")</span>
+                <span class="method-start">296669 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify Availability of add to cart button", "Product selection & details")</span>
+                <span class="method-start">312597 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify product images carousel", "Product selection & details")</span>
+                <span class="method-start">329763 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("verify delivery options", "Product selection & details")</span>
+                <span class="method-start">345373 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">17488 ms</span>
+                <span class="method-start">363046 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

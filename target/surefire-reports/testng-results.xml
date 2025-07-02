@@ -1,27 +1,345 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="22" passed="13" failed="9" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-26T16:35:13 IST" name="Surefire suite" finished-at="2025-06-26T16:35:33 IST" duration-ms="20212">
+  <suite started-at="2025-07-01T16:32:56 IST" name="Surefire suite" finished-at="2025-07-01T16:39:04 IST" duration-ms="367715">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:amazonRunners.TestRunner@23986957]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-06-26T16:35:13 IST" name="Surefire test" finished-at="2025-06-26T16:35:33 IST" duration-ms="20212">
+    <test started-at="2025-07-01T16:32:56 IST" name="Surefire test" finished-at="2025-07-01T16:39:04 IST" duration-ms="367715">
       <class name="amazonRunners.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:amazonRunners.TestRunner@23986957]" started-at="2025-06-26T16:35:13 IST" name="setUpClass" finished-at="2025-06-26T16:35:13 IST" duration-ms="219" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:amazonRunners.TestRunner@23986957]" started-at="2025-07-01T16:32:56 IST" name="setUpClass" finished-at="2025-07-01T16:32:57 IST" duration-ms="251" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@462abec3]]>
+                <![CDATA[org.testng.TestRunner@284d4885]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:amazonRunners.TestRunner@23986957]" started-at="2025-06-26T16:35:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-26T16:35:21 IST" duration-ms="8019" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:amazonRunners.TestRunner@23986957]" started-at="2025-07-01T16:32:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-01T16:33:14 IST" duration-ms="17629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add product to cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Cart feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:amazonRunners.TestRunner@23986957]" started-at="2025-07-01T16:33:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-01T16:33:32 IST" duration-ms="17486" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify product is added to cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Cart feature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='a-section a-spacing-none a-padding-none']//input[@id='add-to-cart-button']"}
+  (Session info: chrome=137.0.7151.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f0c0a6e023f2ee87839a0a69a9f41887, findElement {using=xpath, value=//div[@class='a-section a-spacing-none a-padding-none']//input[@id='add-to-cart-button']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61809}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:61809/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f0c0a6e023f2ee87839a0a69a9f41887]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='a-section a-spacing-none a-padding-none']//input[@id='add-to-cart-button']"}
+  (Session info: chrome=137.0.7151.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f0c0a6e023f2ee87839a0a69a9f41887, findElement {using=xpath, value=//div[@class='a-section a-spacing-none a-padding-none']//input[@id='add-to-cart-button']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61809}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:61809/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f0c0a6e023f2ee87839a0a69a9f41887
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+at amazonPages.CartPage.addCart(CartPage.java:46)
+at amazonStepdefs.CartStepdefs.user_clicks_on_add_to_cart(CartStepdefs.java:31)
+at ✽.User clicks on add to cart(file:///Users/lt535j/eclipse-workspace/Amazon/src/test/resources/amazonFeatures/Cart.feature:9)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:amazonRunners.TestRunner@23986957]" started-at="2025-07-01T16:33:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-01T16:33:47 IST" duration-ms="15690" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Increase product quantity in cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Cart feature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "amazonPages.CartPage.cartPage()" because "this.cartpge" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "amazonPages.CartPage.cartPage()" because "this.cartpge" is null
+at amazonStepdefs.CartStepdefs.user_is_on_cart_page(CartStepdefs.java:41)
+at ✽.User is on cart page(file:///Users/lt535j/eclipse-workspace/Amazon/src/test/resources/amazonFeatures/Cart.feature:13)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:amazonRunners.TestRunner@23986957]" started-at="2025-07-01T16:33:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-01T16:34:01 IST" duration-ms="14082" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Remove product quantity"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Cart feature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "amazonPages.CartPage.cartPage()" because "this.cartpge" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "amazonPages.CartPage.cartPage()" because "this.cartpge" is null
+at amazonStepdefs.CartStepdefs.user_is_on_cart_page(CartStepdefs.java:41)
+at ✽.User is on cart page(file:///Users/lt535j/eclipse-workspace/Amazon/src/test/resources/amazonFeatures/Cart.feature:18)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:amazonRunners.TestRunner@23986957]" started-at="2025-07-01T16:34:01 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-01T16:34:15 IST" duration-ms="13497" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify cart empty message"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Cart feature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "amazonPages.CartPage.cartPage()" because "this.cartpge" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "amazonPages.CartPage.cartPage()" because "this.cartpge" is null
+at amazonStepdefs.CartStepdefs.user_is_on_cart_page(CartStepdefs.java:41)
+at ✽.User is on cart page(file:///Users/lt535j/eclipse-workspace/Amazon/src/test/resources/amazonFeatures/Cart.feature:24)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:amazonRunners.TestRunner@23986957]" started-at="2025-07-01T16:34:15 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-01T16:34:29 IST" duration-ms="13781" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Home page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:amazonRunners.TestRunner@23986957]" started-at="2025-07-01T16:34:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-01T16:34:42 IST" duration-ms="13639" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Amazon logo is displayed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:amazonRunners.TestRunner@23986957]" started-at="2025-07-01T16:34:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-01T16:34:59 IST" duration-ms="16974" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify search box is present and enabled"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:amazonRunners.TestRunner@23986957]" started-at="2025-07-01T16:34:59 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-01T16:35:12 IST" duration-ms="12361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify cart icon is visible"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:amazonRunners.TestRunner@23986957]" started-at="2025-07-01T16:35:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-01T16:35:25 IST" duration-ms="13348" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify sign-in option is available"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:amazonRunners.TestRunner@23986957]" started-at="2025-07-01T16:35:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-01T16:35:40 IST" duration-ms="15338" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Product Search"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:amazonRunners.TestRunner@23986957]" started-at="2025-07-01T16:35:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-01T16:35:59 IST" duration-ms="18973" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify search results are displayed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Product Search"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:amazonRunners.TestRunner@23986957]" started-at="2025-07-01T16:35:59 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-01T16:36:18 IST" duration-ms="19010" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify product titles contain search term"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Product Search"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:amazonRunners.TestRunner@23986957]" started-at="2025-07-01T16:36:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-01T16:36:36 IST" duration-ms="17692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Apply filters"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Product Search"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:amazonRunners.TestRunner@23986957]" started-at="2025-07-01T16:36:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-01T16:36:55 IST" duration-ms="18642" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sort results by price"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Product Search"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:amazonRunners.TestRunner@23986957]" started-at="2025-07-01T16:36:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-01T16:37:12 IST" duration-ms="17525" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +355,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:amazonRunners.TestRunner@23986957]" started-at="2025-06-26T16:35:21 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-26T16:35:30 IST" duration-ms="9243" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:amazonRunners.TestRunner@23986957]" started-at="2025-07-01T16:37:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-01T16:37:34 IST" duration-ms="22260" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,7 +371,278 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:amazonRunners.TestRunner@23986957]" started-at="2025-06-26T16:35:30 IST" name="tearDownClass" finished-at="2025-06-26T16:35:33 IST" duration-ms="2713" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:amazonRunners.TestRunner@23986957]" started-at="2025-07-01T16:37:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-01T16:37:53 IST" duration-ms="18479" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["select a product from search results"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Product selection & details"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h2[text()='Results']"}
+  (Session info: chrome=137.0.7151.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ad7a0ea4fb2ee8be1de8f27dc6c91bf, findElement {using=xpath, value=//h2[text()='Results']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63988}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63988/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ad7a0ea4fb2ee8be1de8f27dc6c91bf]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h2[text()='Results']"}
+  (Session info: chrome=137.0.7151.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ad7a0ea4fb2ee8be1de8f27dc6c91bf, findElement {using=xpath, value=//h2[text()='Results']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63988}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63988/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ad7a0ea4fb2ee8be1de8f27dc6c91bf
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy22.isDisplayed(Unknown Source)
+at amazonPages.ProductSelectionPage.resultDisplay(ProductSelectionPage.java:72)
+at amazonStepdefs.ProductSelectionStepdefs.search_results_should_display(ProductSelectionStepdefs.java:31)
+at ✽.search results should display(file:///Users/lt535j/eclipse-workspace/Amazon/src/test/resources/amazonFeatures/productSelectionandDetails.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:amazonRunners.TestRunner@23986957]" started-at="2025-07-01T16:37:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-01T16:38:09 IST" duration-ms="15927" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify product title, price , description on product page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Product selection & details"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-cy='title-recipe']/a/h2/span"}
+  (Session info: chrome=137.0.7151.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e28e5a415b0a291feb3719e5d12c5c3b, findElement {using=xpath, value=//div[@data-cy='title-recipe']/a/h2/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64132}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64132/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e28e5a415b0a291feb3719e5d12c5c3b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-cy='title-recipe']/a/h2/span"}
+  (Session info: chrome=137.0.7151.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e28e5a415b0a291feb3719e5d12c5c3b, findElement {using=xpath, value=//div[@data-cy='title-recipe']/a/h2/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64132}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64132/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e28e5a415b0a291feb3719e5d12c5c3b
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+at amazonPages.ProductSelectionPage.selectProduct(ProductSelectionPage.java:76)
+at amazonStepdefs.ProductSelectionStepdefs.user_clicks_on_product(ProductSelectionStepdefs.java:41)
+at ✽.user clicks on product(file:///Users/lt535j/eclipse-workspace/Amazon/src/test/resources/amazonFeatures/productSelectionandDetails.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:amazonRunners.TestRunner@23986957]" started-at="2025-07-01T16:38:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-01T16:38:26 IST" duration-ms="17166" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Availability of add to cart button"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Product selection & details"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-cy='title-recipe']/a/h2/span"}
+  (Session info: chrome=137.0.7151.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bb4732de36f1caaca25f3f5b9d776b1f, findElement {using=xpath, value=//div[@data-cy='title-recipe']/a/h2/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64275}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64275/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bb4732de36f1caaca25f3f5b9d776b1f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-cy='title-recipe']/a/h2/span"}
+  (Session info: chrome=137.0.7151.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bb4732de36f1caaca25f3f5b9d776b1f, findElement {using=xpath, value=//div[@data-cy='title-recipe']/a/h2/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64275}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64275/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bb4732de36f1caaca25f3f5b9d776b1f
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+at amazonPages.ProductSelectionPage.selectProduct(ProductSelectionPage.java:76)
+at amazonStepdefs.ProductSelectionStepdefs.user_clicks_on_product(ProductSelectionStepdefs.java:41)
+at ✽.user clicks on product(file:///Users/lt535j/eclipse-workspace/Amazon/src/test/resources/amazonFeatures/productSelectionandDetails.feature:17)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:amazonRunners.TestRunner@23986957]" started-at="2025-07-01T16:38:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-01T16:38:42 IST" duration-ms="15609" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify product images carousel"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Product selection & details"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-cy='title-recipe']/a/h2/span"}
+  (Session info: chrome=137.0.7151.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [62fb76568e63537deb914e54cef60acf, findElement {using=xpath, value=//div[@data-cy='title-recipe']/a/h2/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64406}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64406/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 62fb76568e63537deb914e54cef60acf]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-cy='title-recipe']/a/h2/span"}
+  (Session info: chrome=137.0.7151.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [62fb76568e63537deb914e54cef60acf, findElement {using=xpath, value=//div[@data-cy='title-recipe']/a/h2/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64406}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64406/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 62fb76568e63537deb914e54cef60acf
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+at amazonPages.ProductSelectionPage.selectProduct(ProductSelectionPage.java:76)
+at amazonStepdefs.ProductSelectionStepdefs.user_clicks_on_product(ProductSelectionStepdefs.java:41)
+at ✽.user clicks on product(file:///Users/lt535j/eclipse-workspace/Amazon/src/test/resources/amazonFeatures/productSelectionandDetails.feature:23)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:amazonRunners.TestRunner@23986957]" started-at="2025-07-01T16:38:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-01T16:38:59 IST" duration-ms="17672" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify delivery options"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Product selection & details"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "amazonPages.ProductSelectionPage.validpincodevalidation()" because "this.productselectpge" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "amazonPages.ProductSelectionPage.validpincodevalidation()" because "this.productselectpge" is null
+at amazonStepdefs.ProductSelectionStepdefs.user_enters_valid_pincode(ProductSelectionStepdefs.java:71)
+at ✽.user enters valid pincode(file:///Users/lt535j/eclipse-workspace/Amazon/src/test/resources/amazonFeatures/productSelectionandDetails.feature:29)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:amazonRunners.TestRunner@23986957]" started-at="2025-07-01T16:38:59 IST" name="tearDownClass" finished-at="2025-07-01T16:39:04 IST" duration-ms="4656" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

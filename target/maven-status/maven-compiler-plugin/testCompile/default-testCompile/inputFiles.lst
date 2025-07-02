@@ -1,3 +1,7 @@
 /Users/lt535j/eclipse-workspace/Amazon/src/test/java/amazonHooks/Hooks.java
 /Users/lt535j/eclipse-workspace/Amazon/src/test/java/amazonRunners/TestRunner.java
+/Users/lt535j/eclipse-workspace/Amazon/src/test/java/amazonStepdefs/CartStepdefs.java
+/Users/lt535j/eclipse-workspace/Amazon/src/test/java/amazonStepdefs/HomeStepdefs.java
 /Users/lt535j/eclipse-workspace/Amazon/src/test/java/amazonStepdefs/LoginStepdefs.java
+/Users/lt535j/eclipse-workspace/Amazon/src/test/java/amazonStepdefs/ProductSearchStepdefs.java
+/Users/lt535j/eclipse-workspace/Amazon/src/test/java/amazonStepdefs/ProductSelectionStepdefs.java

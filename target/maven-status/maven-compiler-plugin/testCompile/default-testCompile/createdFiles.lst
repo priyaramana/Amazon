@@ -1,3 +1,7 @@
-amazonStepdefs/LoginStepdefs.class
+amazonStepdefs/ProductSelectionStepdefs.class
 amazonHooks/Hooks.class
+amazonStepdefs/CartStepdefs.class
+amazonStepdefs/ProductSearchStepdefs.class
+amazonStepdefs/LoginStepdefs.class
+amazonStepdefs/HomeStepdefs.class
 amazonRunners/TestRunner.class
