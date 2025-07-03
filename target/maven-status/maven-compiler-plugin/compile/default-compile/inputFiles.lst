@@ -6,5 +6,7 @@
 /Users/lt535j/eclipse-workspace/Amazon/src/main/java/amazonPages/ProductSelectionPage.java
 /Users/lt535j/eclipse-workspace/Amazon/src/main/java/amazonUtils/ConfigReader.java
 /Users/lt535j/eclipse-workspace/Amazon/src/main/java/amazonUtils/LoggerClass.java
+/Users/lt535j/eclipse-workspace/Amazon/src/main/java/amazonUtils/RetryAnalyzer.java
+/Users/lt535j/eclipse-workspace/Amazon/src/main/java/amazonUtils/RetryListener.java
 /Users/lt535j/eclipse-workspace/Amazon/src/main/java/amazonUtils/Screenshots.java
 /Users/lt535j/eclipse-workspace/Amazon/src/main/java/amazonUtils/TestListener.java

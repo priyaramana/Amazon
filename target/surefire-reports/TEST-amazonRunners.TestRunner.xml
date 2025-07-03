@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="amazonRunners.TestRunner" time="87.084" tests="22" errors="0" skipped="0" failures="7">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="amazonRunners.TestRunner" time="112.412" tests="22" errors="0" skipped="0" failures="4">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="webdriver.chrome.driver" value="/Users/lt535j/.cache/selenium/chromedriver/mac-arm64/137.0.7151.119/chromedriver"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/24.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/lt535j/eclipse-workspace/Amazon/target/surefire/surefirebooter-20250702224622395_3.jar /Users/lt535j/eclipse-workspace/Amazon/target/surefire 2025-07-02T22-46-22_345-jvmRun1 surefire-20250702224622395_1tmp surefire_0-20250702224622395_2tmp"/>
+    <property name="sun.java.command" value="/Users/lt535j/eclipse-workspace/Amazon/target/surefire/surefirebooter-20250703141002163_3.jar /Users/lt535j/eclipse-workspace/Amazon/target/surefire 2025-07-03T14-10-02_104-jvmRun1 surefire-20250703141002163_1tmp surefire_0-20250703141002163_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/lt535j/eclipse-workspace/Amazon/target/test-classes:/Users/lt535j/eclipse-workspace/Amazon/target/classes:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-java/4.32.0/selenium-java-4.32.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-api/4.32.0/selenium-api-4.32.0.jar:/Users/lt535j/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.32.0/selenium-chrome-driver-4.32.0.jar:/Users/lt535j/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.32.0/selenium-chromium-driver-4.32.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-json/4.32.0/selenium-json-4.32.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.32.0/selenium-manager-4.32.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v134/4.32.0/selenium-devtools-v134-4.32.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v135/4.32.0/selenium-devtools-v135-4.32.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v136/4.32.0/selenium-devtools-v136-4.32.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.32.0/selenium-edge-driver-4.32.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.32.0/selenium-firefox-driver-4.32.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-http/4.32.0/selenium-http-4.32.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.32.0/selenium-ie-driver-4.32.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.32.0/selenium-remote-driver-4.32.0.jar:/Users/lt535j/.m2/repository/com/google/guava/guava/33.4.8-jre/guava-33.4.8-jre.jar:/Users/lt535j/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/lt535j/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/lt535j/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/lt535j/.m2/repository/io/opentelemetry/opentelemetry-api/1.49.0/opentelemetry-api-1.49.0.jar:/Users/lt535j/.m2/repository/io/opentelemetry/opentelemetry-context/1.49.0/opentelemetry-context-1.49.0.jar:/Users/lt535j/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.49.0/opentelemetry-exporter-logging-1.49.0.jar:/Users/lt535j/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.49.0/opentelemetry-sdk-common-1.49.0.jar:/Users/lt535j/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.49.0/opentelemetry-sdk-extension-autoconfigure-spi-1.49.0.jar:/Users/lt535j/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.49.0/opentelemetry-sdk-extension-autoconfigure-1.49.0.jar:/Users/lt535j/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.49.0/opentelemetry-sdk-trace-1.49.0.jar:/Users/lt535j/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.49.0/opentelemetry-sdk-1.49.0.jar:/Users/lt535j/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.49.0/opentelemetry-sdk-metrics-1.49.0.jar:/Users/lt535j/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.49.0/opentelemetry-sdk-logs-1.49.0.jar:/Users/lt535j/.m2/repository/net/bytebuddy/byte-buddy/1.17.5/byte-buddy-1.17.5.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-os/4.32.0/selenium-os-4.32.0.jar:/Users/lt535j/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.32.0/selenium-safari-driver-4.32.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-support/4.32.0/selenium-support-4.32.0.jar:/Users/lt535j/.m2/repository/io/github/bonigarcia/webdrivermanager/6.1.0/webdrivermanager-6.1.0.jar:/Users/lt535j/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:/Users/lt535j/.m2/repository/com/google/code/gson/gson/2.13.0/gson-2.13.0.jar:/Users/lt535j/.m2/repository/com/google/errorprone/error_prone_annotations/2.37.0/error_prone_annotations-2.37.0.jar:/Users/lt535j/.m2/repository/com/github/docker-java/docker-java/3.5.0/docker-java-3.5.0.jar:/Users/lt535j/.m2/repository/com/github/docker-java/docker-java-core/3.5.0/docker-java-core-3.5.0.jar:/Users/lt535j/.m2/repository/com/github/docker-java/docker-java-api/3.5.0/docker-java-api-3.5.0.jar:/Users/lt535j/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/lt535j/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.5.0/docker-java-transport-httpclient5-3.5.0.jar:/Users/lt535j/.m2/repository/com/github/docker-java/docker-java-transport/3.5.0/docker-java-transport-3.5.0.jar:/Users/lt535j/.m2/repository/net/java/dev/jna/jna/5.17.0/jna-5.17.0.jar:/Users/lt535j/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/lt535j/.m2/repository/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.jar:/Users/lt535j/.m2/repository/org/apache/commons/commons-compress/1.27.1/commons-compress-1.27.1.jar:/Users/lt535j/.m2/repository/commons-codec/commons-codec/1.17.1/commons-codec-1.17.1.jar:/Users/lt535j/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.4.3/httpclient5-5.4.3.jar:/Users/lt535j/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.3.4/httpcore5-5.3.4.jar:/Users/lt535j/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.3.4/httpcore5-h2-5.3.4.jar:/Users/lt535j/.m2/repository/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar:/Users/lt535j/.m2/repository/io/cucumber/cucumber-java/7.15.0/cucumber-java-7.15.0.jar:/Users/lt535j/.m2/repository/io/cucumber/cucumber-core/7.15.0/cucumber-core-7.15.0.jar:/Users/lt535j/.m2/repository/io/cucumber/cucumber-gherkin/7.15.0/cucumber-gherkin-7.15.0.jar:/Users/lt535j/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.15.0/cucumber-gherkin-messages-7.15.0.jar:/Users/lt535j/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/Users/lt535j/.m2/repository/io/cucumber/tag-expressions/6.0.0/tag-expressions-6.0.0.jar:/Users/lt535j/.m2/repository/io/cucumber/cucumber-expressions/17.0.1/cucumber-expressions-17.0.1.jar:/Users/lt535j/.m2/repository/io/cucumber/datatable/7.15.0/datatable-7.15.0.jar:/Users/lt535j/.m2/repository/io/cucumber/cucumber-plugin/7.15.0/cucumber-plugin-7.15.0.jar:/Users/lt535j/.m2/repository/io/cucumber/docstring/7.15.0/docstring-7.15.0.jar:/Users/lt535j/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/Users/lt535j/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/Users/lt535j/.m2/repository/io/cucumber/ci-environment/10.0.0/ci-environment-10.0.0.jar:/Users/lt535j/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/lt535j/.m2/repository/io/cucumber/cucumber-testng/7.15.0/cucumber-testng-7.15.0.jar:/Users/lt535j/.m2/repository/net/masterthought/cucumber-reporting/5.7.6/cucumber-reporting-5.7.6.jar:/Users/lt535j/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.2.2/jackson-databind-2.13.2.2.jar:/Users/lt535j/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.2/jackson-annotations-2.13.2.jar:/Users/lt535j/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.2/jackson-core-2.13.2.jar:/Users/lt535j/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.2/jackson-datatype-jsr310-2.13.2.jar:/Users/lt535j/.m2/repository/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.jar:/Users/lt535j/.m2/repository/joda-time/joda-time/2.12.2/joda-time-2.12.2.jar:/Users/lt535j/.m2/repository/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar:/Users/lt535j/.m2/repository/org/jsoup/jsoup/1.16.1/jsoup-1.16.1.jar:/Users/lt535j/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20220608.1/owasp-java-html-sanitizer-20220608.1.jar:/Users/lt535j/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/Users/lt535j/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/lt535j/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/lt535j/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar:/Users/lt535j/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/lt535j/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/lt535j/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/lt535j/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar:/Users/lt535j/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/lt535j/.m2/repository/io/qameta/allure/allure-cucumber7-jvm/2.24.0/allure-cucumber7-jvm-2.24.0.jar:/Users/lt535j/.m2/repository/io/qameta/allure/allure-java-commons/2.24.0/allure-java-commons-2.24.0.jar:/Users/lt535j/.m2/repository/io/qameta/allure/allure-model/2.24.0/allure-model-2.24.0.jar:/Users/lt535j/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/Users/lt535j/.m2/repository/io/qameta/allure/allure-testng/2.24.0/allure-testng-2.24.0.jar:/Users/lt535j/.m2/repository/io/qameta/allure/allure-test-filter/2.24.0/allure-test-filter-2.24.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/lt535j/eclipse-workspace/Amazon/target/surefire/surefirebooter-20250702224622395_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/lt535j/eclipse-workspace/Amazon/target/surefire/surefirebooter-20250703141002163_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="24.0.1"/>
     <property name="user.name" value="lt535j"/>
@@ -57,146 +57,28 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="runScenario[&quot;Verify Home page title&quot;, &quot;Home Page&quot;](1)" classname="amazonRunners.TestRunner" time="29.682">
+  <testcase name="runScenario[&quot;Verify sign-in option is available&quot;, &quot;Home Page&quot;](1)" classname="amazonRunners.TestRunner" time="32.415">
     <system-out><![CDATA[
-Scenario: Verify search box is present and enabled # src/test/resources/amazonFeatures/Home.feature:11
-
-Scenario: Verify cart empty message      # src/test/resources/amazonFeatures/Cart.feature:23
-
-Scenario: Remove product quantity                    # src/test/resources/amazonFeatures/Cart.feature:17
-
 Scenario: Add product to cart                                                    # src/test/resources/amazonFeatures/Cart.feature:3
 
-Scenario: Verify Home page title                     # src/test/resources/amazonFeatures/Home.feature:3
-
-Scenario: Verify cart icon is visible # src/test/resources/amazonFeatures/Home.feature:16
+Scenario: Verify search box is present and enabled # src/test/resources/amazonFeatures/Home.feature:11
 
 Scenario: Verify product is added to cart    # src/test/resources/amazonFeatures/Cart.feature:7
 
+Scenario: Verify cart empty message      # src/test/resources/amazonFeatures/Cart.feature:23
+
+Scenario: Verify Home page title                     # src/test/resources/amazonFeatures/Home.feature:3
+
 Scenario: Verify Amazon logo is displayed # src/test/resources/amazonFeatures/Home.feature:7
+
+Scenario: Verify cart icon is visible # src/test/resources/amazonFeatures/Home.feature:16
 
 Scenario: Verify sign-in option is available # src/test/resources/amazonFeatures/Home.feature:20
 
 Scenario: Increase product quantity in cart      # src/test/resources/amazonFeatures/Cart.feature:12
-  Given User is on cart product details page                                     # amazonStepdefs.CartStepdefs.user_is_on_cart_product_details_page()
-  Then user should be able to add product to cart on clicking add to cart button # amazonStepdefs.CartStepdefs.user_should_be_able_to_add_product_to_cart_on_clicking_add_to_cart_button()
-      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-cy='title-recipe']/a/h2/span"}
-  (Session info: chrome=137.0.7151.120)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.32.0', revision: 'd17c8aa950'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2858e0c296d6f59399df152b39db9971, findElement {value=//div[@data-cy='title-recipe']/a/h2/span, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64569}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64569/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2858e0c296d6f59399df152b39db9971
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
-	at amazonPages.ProductSelectionPage.selectProduct(ProductSelectionPage.java:82)
-	at amazonStepdefs.CartStepdefs.user_should_be_able_to_add_product_to_cart_on_clicking_add_to_cart_button(CartStepdefs.java:35)
-	at ✽.user should be able to add product to cart on clicking add to cart button(file:///Users/lt535j/eclipse-workspace/Amazon/src/test/resources/amazonFeatures/Cart.feature:5)
 
-  Given User is on cart page                     # amazonStepdefs.CartStepdefs.user_is_on_cart_page()
-      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-cy='title-recipe']/a/h2/span"}
-  (Session info: chrome=137.0.7151.120)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.32.0', revision: 'd17c8aa950'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4dc54ff80ff83391fd840056372e3061, findElement {value=//div[@data-cy='title-recipe']/a/h2/span, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64559}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64559/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4dc54ff80ff83391fd840056372e3061
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
-	at amazonPages.ProductSelectionPage.selectProduct(ProductSelectionPage.java:82)
-	at amazonStepdefs.CartStepdefs.user_is_on_cart_page(CartStepdefs.java:63)
-	at ✽.User is on cart page(file:///Users/lt535j/eclipse-workspace/Amazon/src/test/resources/amazonFeatures/Cart.feature:13)
-
-  When user clicks on + next to product quantity # amazonStepdefs.CartStepdefs.user_clicks_on_next_to_product_quantity()
-  Then quantity should get increased by 1        # amazonStepdefs.CartStepdefs.quantity_should_get_increased_by(java.lang.Integer)
-  Given User is on home page                       # amazonStepdefs.HomeStepdefs.user_is_on_home_page()
-  Given User is on home page              # amazonStepdefs.HomeStepdefs.user_is_on_home_page()
-  Given User is on home page                         # amazonStepdefs.HomeStepdefs.user_is_on_home_page()
+Scenario: Remove product quantity                    # src/test/resources/amazonFeatures/Cart.feature:17
   Given User is on home page                 # amazonStepdefs.HomeStepdefs.user_is_on_home_page()
-  Then Expected page title should match actual title # amazonStepdefs.HomeStepdefs.expected_page_title_should_match_actual_title()
-  Then Amazon logo should be displayed    # amazonStepdefs.HomeStepdefs.amazon_logo_should_be_displayed()
-  Then search box should be present                # amazonStepdefs.HomeStepdefs.search_box_should_be_present()
-  Then sign-in option should be available    # amazonStepdefs.HomeStepdefs.sign_in_option_should_be_available()
-]]></system-out>
-    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
-SLF4J(W): Defaulting to no-operation (NOP) logger implementation
-SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Jul 02, 2025 10:46:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
-Jul 02, 2025 10:46:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
-Jul 02, 2025 10:46:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
-Jul 02, 2025 10:46:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
-Jul 02, 2025 10:46:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
-Jul 02, 2025 10:46:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
-Jul 02, 2025 10:46:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
-Jul 02, 2025 10:46:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
-Jul 02, 2025 10:46:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
-Jul 02, 2025 10:46:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
-]]></system-err>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify sign-in option is available&quot;, &quot;Home Page&quot;](2)" classname="amazonRunners.TestRunner" time="0.025">
-    <system-out><![CDATA[  And search box should be enabled                 # amazonStepdefs.HomeStepdefs.search_box_should_be_enabled()
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify Amazon logo is displayed&quot;, &quot;Home Page&quot;](3)" classname="amazonRunners.TestRunner" time="0.0"/>
-  <testcase name="runScenario[&quot;Verify search box is present and enabled&quot;, &quot;Home Page&quot;](4)" classname="amazonRunners.TestRunner" time="0.124">
-    <system-out><![CDATA[
-Scenario: Verify search results are displayed # src/test/resources/amazonFeatures/Productsearcg.feature:8
-
-Scenario: Verify product titles contain search term # src/test/resources/amazonFeatures/Productsearcg.feature:13
-
-Scenario: Search for product                    # src/test/resources/amazonFeatures/Productsearcg.feature:3
-  Given User is on home page          # amazonStepdefs.HomeStepdefs.user_is_on_home_page()
-  Given User is on cart product details page # amazonStepdefs.CartStepdefs.user_is_on_cart_product_details_page()
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify cart icon is visible&quot;, &quot;Home Page&quot;](5)" classname="amazonRunners.TestRunner" time="0.262">
-    <system-out><![CDATA[  Then cart icon should be visible    # amazonStepdefs.HomeStepdefs.cart_icon_should_be_visible()
-
-Scenario: Apply filters                                      # src/test/resources/amazonFeatures/Productsearcg.feature:19
   Given User is on cart page             # amazonStepdefs.CartStepdefs.user_is_on_cart_page()
       org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-cy='title-recipe']/a/h2/span"}
   (Session info: chrome=137.0.7151.120)
@@ -204,9 +86,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.32.0', revision: 'd17c8aa950'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0428d7949d51c4072b578726d180be68, findElement {value=//div[@data-cy='title-recipe']/a/h2/span, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64563}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64563/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0428d7949d51c4072b578726d180be68
+Command: [27f04d7fdf8748c3162b67bcd648453f, findElement {using=xpath, value=//div[@data-cy='title-recipe']/a/h2/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59291}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59291/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 27f04d7fdf8748c3162b67bcd648453f
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
@@ -230,19 +112,145 @@ Session ID: 0428d7949d51c4072b578726d180be68
 
   When no product is added to cart       # amazonStepdefs.CartStepdefs.no_product_is_added_to_cart()
   Then cart empty message should display # amazonStepdefs.CartStepdefs.cart_empty_message_should_display()
+  Given User is on cart product details page # amazonStepdefs.CartStepdefs.user_is_on_cart_product_details_page()
+  Then sign-in option should be available    # amazonStepdefs.HomeStepdefs.sign_in_option_should_be_available()
+  Given User is on home page          # amazonStepdefs.HomeStepdefs.user_is_on_home_page()
+  Given User is on home page                       # amazonStepdefs.HomeStepdefs.user_is_on_home_page()
+  Then cart icon should be visible    # amazonStepdefs.HomeStepdefs.cart_icon_should_be_visible()
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Jul 03, 2025 2:10:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+Jul 03, 2025 2:10:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+Jul 03, 2025 2:10:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+Jul 03, 2025 2:10:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+Jul 03, 2025 2:10:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+Jul 03, 2025 2:10:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+Jul 03, 2025 2:10:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+Jul 03, 2025 2:10:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+Jul 03, 2025 2:10:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+Jul 03, 2025 2:10:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify cart icon is visible&quot;, &quot;Home Page&quot;](2)" classname="amazonRunners.TestRunner" time="1.681">
+    <system-out><![CDATA[  Given User is on home page              # amazonStepdefs.HomeStepdefs.user_is_on_home_page()
+  Given User is on cart product details page                                     # amazonStepdefs.CartStepdefs.user_is_on_cart_product_details_page()
+
+Scenario: Search for product                    # src/test/resources/amazonFeatures/Productsearcg.feature:3
+/Users/lt535j/eclipse-workspace/Amazon/Images/Amazon.in : Iphone.png
+
+    Embedding Failed screenshots [image/png 573123 bytes]
+
+  Then user should be able to add product to cart on clicking add to cart button # amazonStepdefs.CartStepdefs.user_should_be_able_to_add_product_to_cart_on_clicking_add_to_cart_button()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-cy='title-recipe']/a/h2/span"}
+  (Session info: chrome=137.0.7151.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e8a2c1d5352a4f71846471ad14c5a413, findElement {using=xpath, value=//div[@data-cy='title-recipe']/a/h2/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59283}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59283/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e8a2c1d5352a4f71846471ad14c5a413
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+	at amazonPages.ProductSelectionPage.selectProduct(ProductSelectionPage.java:82)
+	at amazonStepdefs.CartStepdefs.user_should_be_able_to_add_product_to_cart_on_clicking_add_to_cart_button(CartStepdefs.java:35)
+	at ✽.user should be able to add product to cart on clicking add to cart button(file:///Users/lt535j/eclipse-workspace/Amazon/src/test/resources/amazonFeatures/Cart.feature:5)
+
+  Then search box should be present                # amazonStepdefs.HomeStepdefs.search_box_should_be_present()
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Add product to cart&quot;, &quot;Cart feature&quot;](6)" classname="amazonRunners.TestRunner" time="3.219">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@data-cy=&apos;title-recipe&apos;]/a/h2/span&quot;}&#10;  (Session info: chrome=137.0.7151.120)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.32.0&apos;, revision: &apos;d17c8aa950&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.5&apos;, java.version: &apos;24.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [2858e0c296d6f59399df152b39db9971, findElement {value=//div[@data-cy=&apos;title-recipe&apos;]/a/h2/span, using=xpath}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64569}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64569/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 2858e0c296d6f59399df152b39db9971" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+  <testcase name="runScenario[&quot;Verify Amazon logo is displayed&quot;, &quot;Home Page&quot;](3)" classname="amazonRunners.TestRunner" time="0.272">
+    <system-out><![CDATA[  Then Amazon logo should be displayed    # amazonStepdefs.HomeStepdefs.amazon_logo_should_be_displayed()
+  Given User is on home page                         # amazonStepdefs.HomeStepdefs.user_is_on_home_page()
+
+Scenario: Verify search results are displayed # src/test/resources/amazonFeatures/Productsearcg.feature:8
+  And search box should be enabled                 # amazonStepdefs.HomeStepdefs.search_box_should_be_enabled()
+  Then Expected page title should match actual title # amazonStepdefs.HomeStepdefs.expected_page_title_should_match_actual_title()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify search box is present and enabled&quot;, &quot;Home Page&quot;](4)" classname="amazonRunners.TestRunner" time="0.037">
+    <system-out><![CDATA[
+Scenario: Verify product titles contain search term # src/test/resources/amazonFeatures/Productsearcg.feature:13
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify cart empty message&quot;, &quot;Cart feature&quot;](5)" classname="amazonRunners.TestRunner" time="0.003">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@data-cy=&apos;title-recipe&apos;]/a/h2/span&quot;}&#10;  (Session info: chrome=137.0.7151.120)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.32.0&apos;, revision: &apos;d17c8aa950&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.5&apos;, java.version: &apos;24.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [27f04d7fdf8748c3162b67bcd648453f, findElement {using=xpath, value=//div[@data-cy=&apos;title-recipe&apos;]/a/h2/span}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59291}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59291/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 27f04d7fdf8748c3162b67bcd648453f" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-cy='title-recipe']/a/h2/span"}
   (Session info: chrome=137.0.7151.120)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.32.0', revision: 'd17c8aa950'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2858e0c296d6f59399df152b39db9971, findElement {value=//div[@data-cy='title-recipe']/a/h2/span, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64569}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64569/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2858e0c296d6f59399df152b39db9971
+Command: [27f04d7fdf8748c3162b67bcd648453f, findElement {using=xpath, value=//div[@data-cy='title-recipe']/a/h2/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59291}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59291/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 27f04d7fdf8748c3162b67bcd648453f
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+	at amazonPages.ProductSelectionPage.selectProduct(ProductSelectionPage.java:82)
+	at amazonStepdefs.CartStepdefs.user_is_on_cart_page(CartStepdefs.java:63)
+	at ✽.User is on cart page(file:///Users/lt535j/eclipse-workspace/Amazon/src/test/resources/amazonFeatures/Cart.feature:24)
+]]></failure>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify Home page title&quot;, &quot;Home Page&quot;](6)" classname="amazonRunners.TestRunner" time="0.03">
+    <system-out><![CDATA[
+Scenario: Apply filters                                      # src/test/resources/amazonFeatures/Productsearcg.feature:19
+
+Scenario: Sort results by price            # src/test/resources/amazonFeatures/Productsearcg.feature:24
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Add product to cart&quot;, &quot;Cart feature&quot;](7)" classname="amazonRunners.TestRunner" time="5.445">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@data-cy=&apos;title-recipe&apos;]/a/h2/span&quot;}&#10;  (Session info: chrome=137.0.7151.120)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.32.0&apos;, revision: &apos;d17c8aa950&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.5&apos;, java.version: &apos;24.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [e8a2c1d5352a4f71846471ad14c5a413, findElement {using=xpath, value=//div[@data-cy=&apos;title-recipe&apos;]/a/h2/span}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59283}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59283/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: e8a2c1d5352a4f71846471ad14c5a413" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-cy='title-recipe']/a/h2/span"}
+  (Session info: chrome=137.0.7151.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e8a2c1d5352a4f71846471ad14c5a413, findElement {using=xpath, value=//div[@data-cy='title-recipe']/a/h2/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59283}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59283/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e8a2c1d5352a4f71846471ad14c5a413
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
@@ -265,189 +273,59 @@ Session ID: 2858e0c296d6f59399df152b39db9971
 	at ✽.user should be able to add product to cart on clicking add to cart button(file:///Users/lt535j/eclipse-workspace/Amazon/src/test/resources/amazonFeatures/Cart.feature:5)
 ]]></failure>
     <system-out><![CDATA[
-Scenario: Sort results by price            # src/test/resources/amazonFeatures/Productsearcg.feature:24
-  Given User is on cart page                         # amazonStepdefs.CartStepdefs.user_is_on_cart_page()
-      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-cy='title-recipe']/a/h2/span"}
-  (Session info: chrome=137.0.7151.120)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.32.0', revision: 'd17c8aa950'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [20e37d56c45bfd7af620bf47ce16c3a6, findElement {value=//div[@data-cy='title-recipe']/a/h2/span, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64565}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64565/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 20e37d56c45bfd7af620bf47ce16c3a6
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
-	at amazonPages.ProductSelectionPage.selectProduct(ProductSelectionPage.java:82)
-	at amazonStepdefs.CartStepdefs.user_is_on_cart_page(CartStepdefs.java:63)
-	at ✽.User is on cart page(file:///Users/lt535j/eclipse-workspace/Amazon/src/test/resources/amazonFeatures/Cart.feature:18)
-
-  When quantity is greater than 1                    # amazonStepdefs.CartStepdefs.quantity_is_greater_than(java.lang.Integer)
-  When user clicks on minus next to product quantity # amazonStepdefs.CartStepdefs.user_clicks_on_minus_next_to_product_quantity()
-  Then quantity should get decreased by 1            # amazonStepdefs.CartStepdefs.quantity_should_get_decreased_by(java.lang.Integer)
-/Users/lt535j/eclipse-workspace/Amazon/Images/Amazon.in : Iphone.png
-
-    Embedding Failed screenshots [image/png 566078 bytes]
-
-]]></system-out>
-    <system-err><![CDATA[Jul 02, 2025 10:46:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
-Jul 02, 2025 10:46:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
-Jul 02, 2025 10:46:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
-Jul 02, 2025 10:46:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
-Jul 02, 2025 10:46:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
-]]></system-err>
-  </testcase>
-  <testcase name="runScenario[&quot;Increase product quantity in cart&quot;, &quot;Cart feature&quot;](7)" classname="amazonRunners.TestRunner" time="4.198">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@data-cy=&apos;title-recipe&apos;]/a/h2/span&quot;}&#10;  (Session info: chrome=137.0.7151.120)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.32.0&apos;, revision: &apos;d17c8aa950&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.5&apos;, java.version: &apos;24.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [4dc54ff80ff83391fd840056372e3061, findElement {value=//div[@data-cy=&apos;title-recipe&apos;]/a/h2/span, using=xpath}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64559}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64559/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 4dc54ff80ff83391fd840056372e3061" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-cy='title-recipe']/a/h2/span"}
-  (Session info: chrome=137.0.7151.120)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.32.0', revision: 'd17c8aa950'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4dc54ff80ff83391fd840056372e3061, findElement {value=//div[@data-cy='title-recipe']/a/h2/span, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64559}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64559/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4dc54ff80ff83391fd840056372e3061
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
-	at amazonPages.ProductSelectionPage.selectProduct(ProductSelectionPage.java:82)
-	at amazonStepdefs.CartStepdefs.user_is_on_cart_page(CartStepdefs.java:63)
-	at ✽.User is on cart page(file:///Users/lt535j/eclipse-workspace/Amazon/src/test/resources/amazonFeatures/Cart.feature:13)
-]]></failure>
-    <system-out><![CDATA[
 Scenario: Click on Login button           # src/test/resources/amazonFeatures/login.feature:3
 /Users/lt535j/eclipse-workspace/Amazon/Images/Amazon.in : Iphone.png
 
-    Embedding Failed screenshots [image/png 573695 bytes]
+    Embedding Failed screenshots [image/png 919045 bytes]
 
 ]]></system-out>
-    <system-err><![CDATA[Jul 02, 2025 10:46:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jul 03, 2025 2:10:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+Jul 03, 2025 2:10:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+Jul 03, 2025 2:10:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+Jul 03, 2025 2:10:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+Jul 03, 2025 2:10:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+Jul 03, 2025 2:10:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify cart empty message&quot;, &quot;Cart feature&quot;](8)" classname="amazonRunners.TestRunner" time="4.125">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@data-cy=&apos;title-recipe&apos;]/a/h2/span&quot;}&#10;  (Session info: chrome=137.0.7151.120)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.32.0&apos;, revision: &apos;d17c8aa950&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.5&apos;, java.version: &apos;24.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [0428d7949d51c4072b578726d180be68, findElement {value=//div[@data-cy=&apos;title-recipe&apos;]/a/h2/span, using=xpath}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64563}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64563/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0428d7949d51c4072b578726d180be68" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-cy='title-recipe']/a/h2/span"}
-  (Session info: chrome=137.0.7151.120)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.32.0', revision: 'd17c8aa950'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0428d7949d51c4072b578726d180be68, findElement {value=//div[@data-cy='title-recipe']/a/h2/span, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64563}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64563/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0428d7949d51c4072b578726d180be68
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
-	at amazonPages.ProductSelectionPage.selectProduct(ProductSelectionPage.java:82)
-	at amazonStepdefs.CartStepdefs.user_is_on_cart_page(CartStepdefs.java:63)
-	at ✽.User is on cart page(file:///Users/lt535j/eclipse-workspace/Amazon/src/test/resources/amazonFeatures/Cart.feature:24)
-]]></failure>
+  <testcase name="runScenario[&quot;Verify product is added to cart&quot;, &quot;Cart feature&quot;](8)" classname="amazonRunners.TestRunner" time="19.654">
     <system-out><![CDATA[
 Scenario: Verify login with valid creds          # src/test/resources/amazonFeatures/login.feature:8
-/Users/lt535j/eclipse-workspace/Amazon/Images/Amazon.in : Iphone.png
-/Users/lt535j/eclipse-workspace/Amazon/Images/Amazon.in : Iphone.png
-
-    Embedding Failed screenshots [image/png 572617 bytes]
-
   Given User is on product search page                       # amazonStepdefs.ProductSearchStepdefs.user_is_on_product_search_page()
-
-    Embedding Failed screenshots [image/png 577838 bytes]
-
+  Given User is on product search page          # amazonStepdefs.ProductSearchStepdefs.user_is_on_product_search_page()
+  Given User is on product search page        # amazonStepdefs.ProductSearchStepdefs.user_is_on_product_search_page()
+  Given User is on cart page                     # amazonStepdefs.CartStepdefs.user_is_on_cart_page()
+  Given User is on cart page                         # amazonStepdefs.CartStepdefs.user_is_on_cart_page()
+  When quantity is greater than 1                    # amazonStepdefs.CartStepdefs.quantity_is_greater_than(java.lang.Integer)
+  When User clicks on add to cart            # amazonStepdefs.CartStepdefs.user_clicks_on_add_to_cart()
+  Then product should be added to cart       # amazonStepdefs.CartStepdefs.product_should_be_added_to_cart()
 ]]></system-out>
-    <system-err><![CDATA[Jul 02, 2025 10:47:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jul 03, 2025 2:10:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Remove product quantity&quot;, &quot;Cart feature&quot;](9)" classname="amazonRunners.TestRunner" time="0.046">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@data-cy=&apos;title-recipe&apos;]/a/h2/span&quot;}&#10;  (Session info: chrome=137.0.7151.120)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.32.0&apos;, revision: &apos;d17c8aa950&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.5&apos;, java.version: &apos;24.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [20e37d56c45bfd7af620bf47ce16c3a6, findElement {value=//div[@data-cy=&apos;title-recipe&apos;]/a/h2/span, using=xpath}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64565}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64565/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 20e37d56c45bfd7af620bf47ce16c3a6" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-cy='title-recipe']/a/h2/span"}
-  (Session info: chrome=137.0.7151.120)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.32.0', revision: 'd17c8aa950'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [20e37d56c45bfd7af620bf47ce16c3a6, findElement {value=//div[@data-cy='title-recipe']/a/h2/span, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64565}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64565/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 20e37d56c45bfd7af620bf47ce16c3a6
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
-	at amazonPages.ProductSelectionPage.selectProduct(ProductSelectionPage.java:82)
-	at amazonStepdefs.CartStepdefs.user_is_on_cart_page(CartStepdefs.java:63)
-	at ✽.User is on cart page(file:///Users/lt535j/eclipse-workspace/Amazon/src/test/resources/amazonFeatures/Cart.feature:18)
-]]></failure>
+  <testcase name="runScenario[&quot;Click on Login button&quot;, &quot;Login feature&quot;](9)" classname="amazonRunners.TestRunner" time="2.828">
     <system-out><![CDATA[
 Scenario: select a product from search results             # src/test/resources/amazonFeatures/productSelectionandDetails.feature:4
+  Given user is on home page              # amazonStepdefs.LoginStepdefs.user_is_on_home_page()
+  When user searches for product              # amazonStepdefs.ProductSearchStepdefs.user_searches_for_product()
+  When user clicks on signin in home page # amazonStepdefs.LoginStepdefs.user_clicks_on_signin_in_home_page()
+  Then user should redirect to login page # amazonStepdefs.LoginStepdefs.user_should_redirect_to_login_page()
+  When user enters a product name in search bar # amazonStepdefs.ProductSearchStepdefs.user_enters_a_product_name_in_search_bar()
 ]]></system-out>
+    <system-err><![CDATA[Jul 03, 2025 2:11:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify product titles contain search term&quot;, &quot;Product Search&quot;](10)" classname="amazonRunners.TestRunner" time="4.543">
+  <testcase name="runScenario[&quot;Verify search results are displayed&quot;, &quot;Product Search&quot;](10)" classname="amazonRunners.TestRunner" time="4.442">
     <system-out><![CDATA[
 Scenario: Verify product title, price , description on product page # src/test/resources/amazonFeatures/productSelectionandDetails.feature:11
-  Given User is on product search page              # amazonStepdefs.ProductSearchStepdefs.user_is_on_product_search_page()
+  Given User is on product search page     # amazonStepdefs.ProductSearchStepdefs.user_is_on_product_search_page()
   When user applies filters                                  # amazonStepdefs.ProductSearchStepdefs.user_applies_filters()
   Then products that match filters only should get displayed # amazonStepdefs.ProductSearchStepdefs.products_that_match_filters_only_should_get_displayed()
       org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-cy='title-recipe']/a/h2/span"}
@@ -456,9 +334,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.32.0', revision: 'd17c8aa950'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [463cfb0656a1efdb62bc5d3f85d95d25, findElement {value=//div[@data-cy='title-recipe']/a/h2/span, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65241}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:65241/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 463cfb0656a1efdb62bc5d3f85d95d25
+Command: [1b3e009dd5abfdbe1844a0920fb41c80, findElement {using=xpath, value=//div[@data-cy='title-recipe']/a/h2/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60044}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60044/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1b3e009dd5abfdbe1844a0920fb41c80
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
@@ -480,32 +358,70 @@ Session ID: 463cfb0656a1efdb62bc5d3f85d95d25
 	at amazonStepdefs.ProductSearchStepdefs.products_that_match_filters_only_should_get_displayed(ProductSearchStepdefs.java:58)
 	at ✽.products that match filters only should get displayed(file:///Users/lt535j/eclipse-workspace/Amazon/src/test/resources/amazonFeatures/Productsearcg.feature:22)
 
+  Given User is on product search page              # amazonStepdefs.ProductSearchStepdefs.user_is_on_product_search_page()
   When user searches for product                    # amazonStepdefs.ProductSearchStepdefs.user_searches_for_product()
-  Given User is on product search page          # amazonStepdefs.ProductSearchStepdefs.user_is_on_product_search_page()
-  When user enters a product name in search bar # amazonStepdefs.ProductSearchStepdefs.user_enters_a_product_name_in_search_bar()
-  Given User is on product search page     # amazonStepdefs.ProductSearchStepdefs.user_is_on_product_search_page()
-  Then product search results should display        # amazonStepdefs.ProductSearchStepdefs.product_search_results_should_display()
-Title contain search text
-  And should contain search text in the title       # amazonStepdefs.ProductSearchStepdefs.should_contain_search_text_in_the_title()
-  Given user is on home page              # amazonStepdefs.LoginStepdefs.user_is_on_home_page()
+  Then product search results should display  # amazonStepdefs.ProductSearchStepdefs.product_search_results_should_display()
 ]]></system-out>
-    <system-err><![CDATA[Jul 02, 2025 10:47:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
-Jul 02, 2025 10:47:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jul 03, 2025 2:11:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Apply filters&quot;, &quot;Product Search&quot;](11)" classname="amazonRunners.TestRunner" time="1.685">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@data-cy=&apos;title-recipe&apos;]/a/h2/span&quot;}&#10;  (Session info: chrome=137.0.7151.120)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.32.0&apos;, revision: &apos;d17c8aa950&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.5&apos;, java.version: &apos;24.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [463cfb0656a1efdb62bc5d3f85d95d25, findElement {value=//div[@data-cy=&apos;title-recipe&apos;]/a/h2/span, using=xpath}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65241}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:65241/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 463cfb0656a1efdb62bc5d3f85d95d25" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+  <testcase name="runScenario[&quot;Verify product titles contain search term&quot;, &quot;Product Search&quot;](11)" classname="amazonRunners.TestRunner" time="1.051">
+    <system-out><![CDATA[
+Scenario: Verify Availability of add to cart button # src/test/resources/amazonFeatures/productSelectionandDetails.feature:18
+  Then product search results should display        # amazonStepdefs.ProductSearchStepdefs.product_search_results_should_display()
+Title contain search text
+  And should contain search text in the title       # amazonStepdefs.ProductSearchStepdefs.should_contain_search_text_in_the_title()
+  When user sorts results by low to high   # amazonStepdefs.ProductSearchStepdefs.user_sorts_results_by_low_to_high()
+  Then products should display accordingly # amazonStepdefs.ProductSearchStepdefs.products_should_display_accordingly()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Sort results by price&quot;, &quot;Product Search&quot;](12)" classname="amazonRunners.TestRunner" time="0.035">
+    <system-out><![CDATA[
+Scenario: Verify product images carousel   # src/test/resources/amazonFeatures/productSelectionandDetails.feature:24
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Search for product&quot;, &quot;Product Search&quot;](13)" classname="amazonRunners.TestRunner" time="0.35">
+    <system-out><![CDATA[
+Scenario: verify delivery options       # src/test/resources/amazonFeatures/productSelectionandDetails.feature:30
+  And should be able to click on search         # amazonStepdefs.ProductSearchStepdefs.should_be_able_to_click_on_search()
+]]></system-out>
+    <system-err><![CDATA[Jul 03, 2025 2:11:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Increase product quantity in cart&quot;, &quot;Cart feature&quot;](14)" classname="amazonRunners.TestRunner" time="1.842">
+    <system-out><![CDATA[  When user clicks on + next to product quantity # amazonStepdefs.CartStepdefs.user_clicks_on_next_to_product_quantity()
+  Then quantity should get increased by 1        # amazonStepdefs.CartStepdefs.quantity_should_get_increased_by(java.lang.Integer)
+]]></system-out>
+    <system-err><![CDATA[Jul 03, 2025 2:11:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+Jul 03, 2025 2:11:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Remove product quantity&quot;, &quot;Cart feature&quot;](15)" classname="amazonRunners.TestRunner" time="5.654">
+    <system-out><![CDATA[  Given user is on login page                    # amazonStepdefs.LoginStepdefs.user_is_on_login_page()
+  When user enter username "priyat908@yahoo.com" # amazonStepdefs.LoginStepdefs.user_enter_username(java.lang.String)
+/Users/lt535j/eclipse-workspace/Amazon/Images/Amazon.in : Iphone.png
+  When user clicks on minus next to product quantity # amazonStepdefs.CartStepdefs.user_clicks_on_minus_next_to_product_quantity()
+  Then quantity should get decreased by 1            # amazonStepdefs.CartStepdefs.quantity_should_get_decreased_by(java.lang.Integer)
+
+    Embedding Failed screenshots [image/png 616701 bytes]
+
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Apply filters&quot;, &quot;Product Search&quot;](16)" classname="amazonRunners.TestRunner" time="5.707">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@data-cy=&apos;title-recipe&apos;]/a/h2/span&quot;}&#10;  (Session info: chrome=137.0.7151.120)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.32.0&apos;, revision: &apos;d17c8aa950&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.5&apos;, java.version: &apos;24.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [1b3e009dd5abfdbe1844a0920fb41c80, findElement {using=xpath, value=//div[@data-cy=&apos;title-recipe&apos;]/a/h2/span}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60044}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60044/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 1b3e009dd5abfdbe1844a0920fb41c80" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-cy='title-recipe']/a/h2/span"}
   (Session info: chrome=137.0.7151.120)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.32.0', revision: 'd17c8aa950'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [463cfb0656a1efdb62bc5d3f85d95d25, findElement {value=//div[@data-cy='title-recipe']/a/h2/span, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65241}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:65241/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 463cfb0656a1efdb62bc5d3f85d95d25
+Command: [1b3e009dd5abfdbe1844a0920fb41c80, findElement {using=xpath, value=//div[@data-cy='title-recipe']/a/h2/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60044}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60044/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1b3e009dd5abfdbe1844a0920fb41c80
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
@@ -527,104 +443,27 @@ Session ID: 463cfb0656a1efdb62bc5d3f85d95d25
 	at amazonStepdefs.ProductSearchStepdefs.products_that_match_filters_only_should_get_displayed(ProductSearchStepdefs.java:58)
 	at ✽.products that match filters only should get displayed(file:///Users/lt535j/eclipse-workspace/Amazon/src/test/resources/amazonFeatures/Productsearcg.feature:22)
 ]]></failure>
-    <system-out><![CDATA[
-Scenario: Verify Availability of add to cart button # src/test/resources/amazonFeatures/productSelectionandDetails.feature:18
-  Given User is on product search page        # amazonStepdefs.ProductSearchStepdefs.user_is_on_product_search_page()
-/Users/lt535j/eclipse-workspace/Amazon/Images/Amazon.in : Iphone.png
-
-    Embedding Failed screenshots [image/png 585912 bytes]
-
-  When user clicks on signin in home page # amazonStepdefs.LoginStepdefs.user_clicks_on_signin_in_home_page()
-  Then user should redirect to login page # amazonStepdefs.LoginStepdefs.user_should_redirect_to_login_page()
-]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Click on Login button&quot;, &quot;Login feature&quot;](12)" classname="amazonRunners.TestRunner" time="0.095">
-    <system-out><![CDATA[
-Scenario: Verify product images carousel   # src/test/resources/amazonFeatures/productSelectionandDetails.feature:24
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Search for product&quot;, &quot;Product Search&quot;](13)" classname="amazonRunners.TestRunner" time="0.893">
-    <system-out><![CDATA[
-Scenario: verify delivery options       # src/test/resources/amazonFeatures/productSelectionandDetails.feature:30
-  And should be able to click on search         # amazonStepdefs.ProductSearchStepdefs.should_be_able_to_click_on_search()
-]]></system-out>
-    <system-err><![CDATA[Jul 02, 2025 10:47:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
-]]></system-err>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify product is added to cart&quot;, &quot;Cart feature&quot;](14)" classname="amazonRunners.TestRunner" time="1.611">
-    <system-out><![CDATA[  When User clicks on add to cart            # amazonStepdefs.CartStepdefs.user_clicks_on_add_to_cart()
-  Then product should be added to cart       # amazonStepdefs.CartStepdefs.product_should_be_added_to_cart()
-  When user sorts results by low to high   # amazonStepdefs.ProductSearchStepdefs.user_sorts_results_by_low_to_high()
-  Then products should display accordingly # amazonStepdefs.ProductSearchStepdefs.products_should_display_accordingly()
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Sort results by price&quot;, &quot;Product Search&quot;](15)" classname="amazonRunners.TestRunner" time="1.822"/>
-  <testcase name="runScenario[&quot;Verify search results are displayed&quot;, &quot;Product Search&quot;](16)" classname="amazonRunners.TestRunner" time="3.216">
-    <system-out><![CDATA[  When user searches for product              # amazonStepdefs.ProductSearchStepdefs.user_searches_for_product()
-  Then product search results should display  # amazonStepdefs.ProductSearchStepdefs.product_search_results_should_display()
-]]></system-out>
-    <system-err><![CDATA[Jul 02, 2025 10:47:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
-Jul 02, 2025 10:47:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
-]]></system-err>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify login with valid creds&quot;, &quot;Login feature&quot;](17)" classname="amazonRunners.TestRunner" time="8.936">
-    <system-out><![CDATA[  Given User is on product page            # amazonStepdefs.ProductSelectionStepdefs.user_is_on_product_page()
-  Given User is on product page                     # amazonStepdefs.ProductSelectionStepdefs.user_is_on_product_page()
-  Given user is on login page                    # amazonStepdefs.LoginStepdefs.user_is_on_login_page()
-  Given User is on product page                            # amazonStepdefs.ProductSelectionStepdefs.user_is_on_product_page()
-  When user enter username "priyat908@yahoo.com" # amazonStepdefs.LoginStepdefs.user_enter_username(java.lang.String)
-  Given User is on product page                                     # amazonStepdefs.ProductSelectionStepdefs.user_is_on_product_page()
-  And clicks on continue                         # amazonStepdefs.LoginStepdefs.clicks_on_continue()
+  <testcase name="runScenario[&quot;Verify login with valid creds&quot;, &quot;Login feature&quot;](17)" classname="amazonRunners.TestRunner" time="5.909">
+    <system-out><![CDATA[  And clicks on continue                         # amazonStepdefs.LoginStepdefs.clicks_on_continue()
   Then user should redirect to password page     # amazonStepdefs.LoginStepdefs.user_should_redirect_to_password_page()
   When user enters password "Wonder@2023"        # amazonStepdefs.LoginStepdefs.user_enters_password(java.lang.String)
   And clicks on signin button in login page      # amazonStepdefs.LoginStepdefs.clicks_on_signin_button_in_login_page()
   Then user should redirect to home page         # amazonStepdefs.LoginStepdefs.user_should_redirect_to_home_page()
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;select a product from search results&quot;, &quot;Product selection &amp; details&quot;](18)" classname="amazonRunners.TestRunner" time="9.168">
-    <system-out><![CDATA[  When user enters product in search box                   # amazonStepdefs.ProductSelectionStepdefs.user_enters_product_in_search_box()
+  <testcase name="runScenario[&quot;select a product from search results&quot;, &quot;Product selection &amp; details&quot;](18)" classname="amazonRunners.TestRunner" time="21.474">
+    <system-out><![CDATA[  Given User is on product page                     # amazonStepdefs.ProductSelectionStepdefs.user_is_on_product_page()
+  Given User is on product page                                     # amazonStepdefs.ProductSelectionStepdefs.user_is_on_product_page()
+  Given User is on product page                            # amazonStepdefs.ProductSelectionStepdefs.user_is_on_product_page()
+  When user enters product in search box                   # amazonStepdefs.ProductSelectionStepdefs.user_enters_product_in_search_box()
+  Given User is on product page            # amazonStepdefs.ProductSelectionStepdefs.user_is_on_product_page()
   Then search results should display                       # amazonStepdefs.ProductSelectionStepdefs.search_results_should_display()
   And should be able to select product from search results # amazonStepdefs.ProductSelectionStepdefs.should_be_able_to_select_product_from_search_results()
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Verify product title, price , description on product page&quot;, &quot;Product selection &amp; details&quot;](19)" classname="amazonRunners.TestRunner" time="15.858">
-    <system-out><![CDATA[  When user clicks on product              # amazonStepdefs.ProductSelectionStepdefs.user_clicks_on_product()
-      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-cy='title-recipe']/a/h2/span"}
-  (Session info: chrome=137.0.7151.120)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.32.0', revision: 'd17c8aa950'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5040c689eac962ec3ad0feaebbfec047, findElement {value=//div[@data-cy='title-recipe']/a/h2/span, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49434}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49434/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5040c689eac962ec3ad0feaebbfec047
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
-	at amazonPages.ProductSelectionPage.selectProduct(ProductSelectionPage.java:82)
-	at amazonStepdefs.ProductSelectionStepdefs.user_clicks_on_product(ProductSelectionStepdefs.java:46)
-	at ✽.user clicks on product(file:///Users/lt535j/eclipse-workspace/Amazon/src/test/resources/amazonFeatures/productSelectionandDetails.feature:26)
-
-  Then product details page should display # amazonStepdefs.ProductSelectionStepdefs.product_details_page_should_display()
-  And images should display as carousel    # amazonStepdefs.ProductSelectionStepdefs.images_should_display_as_carousel()
-  When user clicks on product                       # amazonStepdefs.ProductSelectionStepdefs.user_clicks_on_product()
+  <testcase name="runScenario[&quot;Verify product title, price , description on product page&quot;, &quot;Product selection &amp; details&quot;](19)" classname="amazonRunners.TestRunner" time="30.259">
+    <system-out><![CDATA[  When user clicks on product                       # amazonStepdefs.ProductSelectionStepdefs.user_clicks_on_product()
   Then product details page should display          # amazonStepdefs.ProductSelectionStepdefs.product_details_page_should_display()
   When user clicks on product                                       # amazonStepdefs.ProductSelectionStepdefs.user_clicks_on_product()
   Then product details page should display                          # amazonStepdefs.ProductSelectionStepdefs.product_details_page_should_display()
@@ -632,59 +471,17 @@ title: Apple iPhone 15 (256 GB) - Black : Amazon.in: Electronics
   And should contain title, price, description                      # amazonStepdefs.ProductSelectionStepdefs.should_contain_title_price_description()
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Verify Availability of add to cart button&quot;, &quot;Product selection &amp; details&quot;](20)" classname="amazonRunners.TestRunner" time="19.025">
-    <system-out><![CDATA[  And it should cotain add to cart button           # amazonStepdefs.ProductSelectionStepdefs.it_should_cotain_add_to_cart_button()
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify product images carousel&quot;, &quot;Product selection &amp; details&quot;](21)" classname="amazonRunners.TestRunner" time="23.516">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@data-cy=&apos;title-recipe&apos;]/a/h2/span&quot;}&#10;  (Session info: chrome=137.0.7151.120)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.32.0&apos;, revision: &apos;d17c8aa950&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.5&apos;, java.version: &apos;24.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [5040c689eac962ec3ad0feaebbfec047, findElement {value=//div[@data-cy=&apos;title-recipe&apos;]/a/h2/span, using=xpath}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49434}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49434/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5040c689eac962ec3ad0feaebbfec047" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-cy='title-recipe']/a/h2/span"}
-  (Session info: chrome=137.0.7151.120)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.32.0', revision: 'd17c8aa950'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5040c689eac962ec3ad0feaebbfec047, findElement {value=//div[@data-cy='title-recipe']/a/h2/span, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49434}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49434/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5040c689eac962ec3ad0feaebbfec047
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
-	at amazonPages.ProductSelectionPage.selectProduct(ProductSelectionPage.java:82)
-	at amazonStepdefs.ProductSelectionStepdefs.user_clicks_on_product(ProductSelectionStepdefs.java:46)
-	at ✽.user clicks on product(file:///Users/lt535j/eclipse-workspace/Amazon/src/test/resources/amazonFeatures/productSelectionandDetails.feature:26)
-]]></failure>
-    <system-out><![CDATA[/Users/lt535j/eclipse-workspace/Amazon/Images/Amazon.in : Iphone.png
-
-    Embedding Failed screenshots [image/png 575233 bytes]
-
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;verify delivery options&quot;, &quot;Product selection &amp; details&quot;](22)" classname="amazonRunners.TestRunner" time="24.922">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@autocomplete=&apos;postal-code&apos;]&quot;}&#10;  (Session info: chrome=137.0.7151.120)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.32.0&apos;, revision: &apos;d17c8aa950&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.5&apos;, java.version: &apos;24.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [86e71aaeace07783cea669f3522ef7a7, findElement {value=//input[@autocomplete=&apos;postal-code&apos;], using=xpath}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49438}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49438/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 86e71aaeace07783cea669f3522ef7a7" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+  <testcase name="runScenario[&quot;verify delivery options&quot;, &quot;Product selection &amp; details&quot;](20)" classname="amazonRunners.TestRunner" time="32.436">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@autocomplete=&apos;postal-code&apos;]&quot;}&#10;  (Session info: chrome=137.0.7151.120)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.32.0&apos;, revision: &apos;d17c8aa950&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.5&apos;, java.version: &apos;24.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [aa9d136c855db06a74c0c1ecad24b2df, findElement {using=xpath, value=//input[@autocomplete=&apos;postal-code&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60785}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60785/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: aa9d136c855db06a74c0c1ecad24b2df" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"xpath","selector":"//input[@autocomplete='postal-code']"}
   (Session info: chrome=137.0.7151.120)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.32.0', revision: 'd17c8aa950'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [86e71aaeace07783cea669f3522ef7a7, findElement {value=//input[@autocomplete='postal-code'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49438}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49438/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 86e71aaeace07783cea669f3522ef7a7
+Command: [aa9d136c855db06a74c0c1ecad24b2df, findElement {using=xpath, value=//input[@autocomplete='postal-code']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60785}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60785/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aa9d136c855db06a74c0c1ecad24b2df
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
@@ -707,6 +504,8 @@ Session ID: 86e71aaeace07783cea669f3522ef7a7
 	at ✽.user enters valid pincode(file:///Users/lt535j/eclipse-workspace/Amazon/src/test/resources/amazonFeatures/productSelectionandDetails.feature:32)
 ]]></failure>
     <system-out><![CDATA[  Given User is on product details page # amazonStepdefs.ProductSelectionStepdefs.user_is_on_product_details_page()
+  When user clicks on product              # amazonStepdefs.ProductSelectionStepdefs.user_clicks_on_product()
+  Then product details page should display # amazonStepdefs.ProductSelectionStepdefs.product_details_page_should_display()
   When user enters valid pincode        # amazonStepdefs.ProductSelectionStepdefs.user_enters_valid_pincode()
       org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@autocomplete='postal-code']"}
   (Session info: chrome=137.0.7151.120)
@@ -714,9 +513,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.32.0', revision: 'd17c8aa950'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [86e71aaeace07783cea669f3522ef7a7, findElement {value=//input[@autocomplete='postal-code'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49438}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49438/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 86e71aaeace07783cea669f3522ef7a7
+Command: [aa9d136c855db06a74c0c1ecad24b2df, findElement {using=xpath, value=//input[@autocomplete='postal-code']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60785}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60785/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aa9d136c855db06a74c0c1ecad24b2df
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
@@ -745,8 +544,16 @@ Session ID: 86e71aaeace07783cea669f3522ef7a7
   Then error message should display     # amazonStepdefs.ProductSelectionStepdefs.error_message_should_display()
 /Users/lt535j/eclipse-workspace/Amazon/Images/Apple iPhone 15 (256 GB) - Black : Amazon.in: Electronics.png
 
-    Embedding Failed screenshots [image/png 487624 bytes]
+    Embedding Failed screenshots [image/png 494756 bytes]
 
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify product images carousel&quot;, &quot;Product selection &amp; details&quot;](21)" classname="amazonRunners.TestRunner" time="32.903">
+    <system-out><![CDATA[  And images should display as carousel    # amazonStepdefs.ProductSelectionStepdefs.images_should_display_as_carousel()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify Availability of add to cart button&quot;, &quot;Product selection &amp; details&quot;](22)" classname="amazonRunners.TestRunner" time="34.344">
+    <system-out><![CDATA[  And it should cotain add to cart button           # amazonStepdefs.ProductSelectionStepdefs.it_should_cotain_add_to_cart_button()
 ]]></system-out>
   </testcase>
 </testsuite>

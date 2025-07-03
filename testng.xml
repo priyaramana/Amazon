@@ -7,5 +7,6 @@
     </test>
     <listeners>
         <listener class-name="amazonUtils.TestListener"/>
+        <listener class-name="amazonUtils.RetryListener" />
     </listeners> 
 </suite>
